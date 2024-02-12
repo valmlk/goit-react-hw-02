@@ -1,0 +1,50 @@
+.btnContainer {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.optionButton {
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #e6dce5;
+  background-color: #b54ba5;
+  padding: 10px 30px;
+  border: solid #b54ba5 2px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 26px -2px;
+  border-radius: 11px;
+
+  align-items: center;
+  cursor: pointer;
+  width: 108px;
+}
+
+.optionButton:hover {
+  background-color: #fff;
+  color: #b54ba5;
+  border-color: #fff;
+}
+
+.resetButton {
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #e6dce5;
+  background-color: #b54ba56b;
+  padding: 10px 30px;
+  border: solid #b54ba56b 2px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 26px -2px;
+  border-radius: 11px;
+  width: 98px;
+
+  align-items: center;
+  cursor: pointer;
+}
+
+.resetButton:hover {
+  background-color: #9908816b;
+  color: #e6d4e3;
+  border-color: #9908816b;
+}

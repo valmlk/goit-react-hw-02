@@ -1,0 +1,9 @@
+.optionsContainer {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+}
+
+.option {
+  font-size: larger;
+}
